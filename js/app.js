@@ -14,7 +14,7 @@ const app = Vue.createApp({
       this.isDisabled = true;
       setTimeout(() => {
         this.isDisabled = false;
-      }, 0000);
+      }, 2000);
     },
     saveSaru() {
       //button
